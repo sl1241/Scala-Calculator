@@ -1,0 +1,20 @@
+.pane{
+    -fx-border-style: solid;
+    -fx-border-inset: 0px 0px 1px 0px;
+}
+
+.pane:hover{
+    -fx-background-color:black
+}
+
+.pane:hover .child{
+    -fx-text-fill:white 
+}
+
+.pane:pressed {
+    -fx-background-color:white
+}
+
+.pane:pressed .child {
+    -fx-text-fill: black
+}
